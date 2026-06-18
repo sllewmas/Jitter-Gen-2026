@@ -9,9 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 66.0, 92.0, 1064.0, 1157.0 ],
+        "rect": [ 966.0, 95.0, 1064.0, 1157.0 ],
         "showontab": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-15",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 6.0, 171.0, 540.0, 60.0 ],
+                    "text": "A deep dive into Jitter Gen, focused on understanding gen syntax and building custom visual systems from the ground up. The workshop will explore pixel shader development with jit.gl.pix, image synthesis, procedural visuals, custom video effects, and audio-reactive visual processes.\n"
+                }
+            },
             {
                 "box": {
                     "id": "obj-38",
@@ -562,9 +573,64 @@
                     "patching_rect": [ 725.5, 83.0, 133.0, 22.0 ],
                     "text": "p \"1.1 The Jitter Matrix\""
                 }
+            },
+            {
+                "box": {
+                    "background": 1,
+                    "fontsize": 72.0,
+                    "id": "obj-16",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 6.0, 10.0, 408.0, 87.0 ],
+                    "text": "Jitter Gen"
+                }
+            },
+            {
+                "box": {
+                    "background": 1,
+                    "fontsize": 36.0,
+                    "id": "obj-17",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 10.0, 85.0, 404.0, 88.0 ],
+                    "text": "SPLICE Institute 2026\n"
+                }
+            },
+            {
+                "box": {
+                    "background": 1,
+                    "fontsize": 36.0,
+                    "id": "obj-18",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 10.0, 124.0, 404.0, 88.0 ],
+                    "text": "Sam Wells\n"
+                }
+            },
+            {
+                "box": {
+                    "autofit": 1,
+                    "background": 1,
+                    "forceaspect": 1,
+                    "id": "obj-19",
+                    "maxclass": "fpic",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "jit_matrix" ],
+                    "patching_rect": [ 184.0, 124.0, 100.0, 44.11764705882353 ],
+                    "pic": "/Users/sam/Library/CloudStorage/Dropbox/Work/MCT/Graphics/MaxCertifiedTrainer-2021-light.png"
+                }
             }
         ],
         "lines": [],
-        "autosave": 0
+        "autosave": 0,
+        "boxgroups": [
+            {
+                "boxes": [ "obj-16", "obj-17", "obj-18", "obj-19" ]
+            }
+        ]
     }
 }
